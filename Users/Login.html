@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ace Cafe - Login</title>
+<link rel="stylesheet" type="text/css" href="../CSS/Styles.css">
+</head>
+<body>
+<div class="Access-container">
+<style>
+.HomeButton, .HomeButton:visited {
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #553C2A;
+    text-decoration: none;
+}
+
+.HomeButton:hover {
+    color: #8B4513;
+    text-decoration: underline;
+}</style>
+<a class="HomeButton" href="../Index.html">🏠︎Home</a>
+<h1>☕︎Cafe Login</h1>
+<form action="./Login.php" method="POST">
+    <label>Username:</label>
+    <input class="textinput" name="Username" maxlength="20" required type="text">
+    <label>Password:</label>
+    <input class="textinput" name="Password" required type="password">   
+    <p>Don't have an account yet? <a href="Register.html">Register </a>now!</p>
+    <button class="AccessButton" type="submit">Login</button>
+</form>
+</div>
+</body>
+</html>
